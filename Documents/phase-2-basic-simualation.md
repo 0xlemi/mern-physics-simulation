@@ -18,12 +18,24 @@ Notes:
 - Added rounded corners and shadow using Tailwind CSS classes
 
 ## 3. Basic Physics Objects
-- [ ] Implement function to create a static ground/floor
-- [ ] Create functions for generating basic shapes:
-  - [ ] Rectangles
-  - [ ] Circles
-  - [ ] Polygons (triangles, pentagons, etc.)
-- [ ] Add textures or colors to distinguish different objects
+- [x] Implement function to create a static ground/floor
+- [x] Create functions for generating basic shapes:
+  - [x] Rectangles
+  - [x] Circles
+  - [x] Polygons (triangles, pentagons, etc.)
+- [x] Add textures or colors to distinguish different objects
+
+Notes:
+- Implemented createGround function to add a static floor to the simulation
+- Created various shapes using Matter.js Bodies module:
+  - Rectangle: Bodies.rectangle for box and ground
+  - Circle: Bodies.circle
+  - Polygons: Bodies.polygon for triangle and pentagon
+- Added distinct colors to each shape using the render.fillStyle property
+- Challenges faced:
+  - Ensuring proper positioning of shapes to avoid immediate collisions
+  - Balancing shape sizes and positions for an interesting initial layout
+  - Implementing cleanup to prevent memory leaks on component unmount
 
 ## 4. World Setup
 - [ ] Create the simulation world
@@ -36,7 +48,7 @@ Notes:
 - [ ] Create a function to add random objects to the world
 
 ## 6. Simulation Controls
-- [ ] Implement start/stop functionality for the simulation
+- [ ] Implement start/stop functionality for the simulation 
 - [ ] Add a reset button to clear all objects except the ground
 - [ ] Create sliders or input fields for adjusting gravity
 
