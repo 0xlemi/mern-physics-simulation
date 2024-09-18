@@ -1,0 +1,13 @@
+These rules enforce:
+
+- Use of TypeScript for all components and modules
+- Consistent naming conventions (PascalCase for components and modules, camelCase for variables and functions)
+- React functional components should be done with the latest conventions
+- Proper import/export structure
+- Don't forget "use client" for dynamic components
+- Use of Tailwind CSS for styling
+- Consistent use of Tailwind CSS classes
+- When changing tailwind classes, make sure you keep the previews classes to not delete what was done before
+- Use of React hooks correctly
+- Consistent use of React hooks
+- When asked to change something, only change that. Do not add extra functionality or try to refactor unless asked 

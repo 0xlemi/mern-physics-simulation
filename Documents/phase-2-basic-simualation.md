@@ -1,14 +1,21 @@
 # Basic Simulation Implementation Tasks
 
 ## 1. Matter.js Integration
-- [ ] Install Matter.js and related packages (e.g., react-matter-js if you decide to use it)
-- [ ] Create a new component for the simulation canvas (e.g., `SimulationCanvas.js`)
-- [ ] Import necessary Matter.js modules (Engine, Render, World, Bodies, etc.)
+- [x] Install Matter.js and related packages (e.g., react-matter-js if you decide to use it)
+- [x] Create a new component for the simulation canvas (e.g., `SimulationCanvas.js`)
+- [x] Import necessary Matter.js modules (Engine, Render, World, Bodies, etc.)
 
 ## 2. Canvas Setup
-- [ ] Create a canvas element in the SimulationCanvas component
-- [ ] Set up the Matter.js engine and renderer
-- [ ] Define canvas dimensions and styling
+- [x] Create a canvas element in the SimulationCanvas component
+- [x] Set up the Matter.js engine and renderer
+- [x] Define canvas dimensions and styling
+- [x] Add rounded corners to the canvas
+
+Notes:
+- Created a SimulationCanvas.tsx component with a canvas element
+- Defined canvas dimensions (800x600) and background color (#f0f0f0)
+- Implemented cleanup function to stop rendering and clear engine when component unmounts
+- Added rounded corners and shadow using Tailwind CSS classes
 
 ## 3. Basic Physics Objects
 - [ ] Implement function to create a static ground/floor
