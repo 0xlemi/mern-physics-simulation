@@ -38,9 +38,15 @@ Notes:
   - Implementing cleanup to prevent memory leaks on component unmount
 
 ## 4. World Setup
-- [ ] Create the simulation world
-- [ ] Add the ground/floor to the world
-- [ ] Implement gravity and other basic world properties
+- [x] Create the simulation world
+- [x] Add the ground/floor to the world
+- [x] Implement gravity and other basic world properties
+
+Notes:
+- Created simulation world using Matter.World.create()
+- Added ground to the world using World.add(world, ground)
+- Set gravity using engine.world.gravity.y = 1
+- Updated tests to reflect these changes
 
 ## 5. Object Interaction
 - [ ] Implement collision detection between objects
