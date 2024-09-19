@@ -1,5 +1,15 @@
 {
   "files": [],
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "strict": true,
+    "lib": ["dom", "esnext"]
+  },
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
